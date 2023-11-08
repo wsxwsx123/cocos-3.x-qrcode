@@ -1,0 +1,78 @@
+{
+  "103fa71d-0b9b-4544-8fc1-af60ab107343": {
+    "url": "db://assets/prefab",
+    "value": {}
+  },
+  "86e34287-f00e-4e46-9e5f-26a7a56b9584": {
+    "url": "db://assets/scripts",
+    "value": {}
+  },
+  "ad31e9d5-f35b-4bad-8564-36616200b6e8": {
+    "url": "db://assets/scripts/CQRCode.js",
+    "value": {}
+  },
+  "9787e753-31a3-4556-b25a-d6a88ddb4f0c": {
+    "url": "db://assets/prefab/Node.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941"
+      ]
+    }
+  },
+  "ef10971b-d35c-473c-90a3-ba1019673582": {
+    "url": "db://assets/scene",
+    "value": {}
+  },
+  "d2a129da-5e2d-425c-80be-b59c2b957faf": {
+    "url": "db://assets/scene/scene.scene",
+    "value": {
+      "depends": [
+        "d2a129da-5e2d-425c-80be-b59c2b957faf",
+        "9787e753-31a3-4556-b25a-d6a88ddb4f0c",
+        "c77ecaa8-c936-46c4-a5b0-98692673ed87"
+      ]
+    }
+  },
+  "4fbd98be-3014-405f-a515-3f30f6301d17": {
+    "url": "db://assets/scripts/CQRCode.js",
+    "value": {}
+  },
+  "4952995a-93cd-43dc-9b30-5ccf9b3ec7c6": {
+    "url": "db://assets/scripts/QR8bitByte.ts",
+    "value": {}
+  },
+  "8345524c-17ec-4320-a192-5f52a64870f5": {
+    "url": "db://assets/scripts/QRBitBuffer.ts",
+    "value": {}
+  },
+  "8731a869-f830-415d-b283-f918fd7da2bb": {
+    "url": "db://assets/scripts/QRCode.ts",
+    "value": {}
+  },
+  "08107db9-bfd7-4c0b-abd3-ea34b8726cd9": {
+    "url": "db://assets/scripts/QRMath.ts",
+    "value": {}
+  },
+  "2fc2bed6-4898-49a9-96d8-482349755d57": {
+    "url": "db://assets/scripts/QRPolynomial.ts",
+    "value": {}
+  },
+  "f8dd6692-d8b1-4482-bd76-e3203da6a57d": {
+    "url": "db://assets/scripts/QRRSBlock.ts",
+    "value": {}
+  },
+  "2adf49c5-de17-42cc-ab09-c2c5a26c4e0e": {
+    "url": "db://assets/scripts/QRUtil.ts",
+    "value": {}
+  },
+  "7df67e50-af08-469a-8b21-347c3f50d5b8": {
+    "url": "db://assets/scripts/constants.ts",
+    "value": {}
+  },
+  "a7f41420-ed3e-487f-8af4-5a032422861c": {
+    "url": "db://assets/scripts/test.ts",
+    "value": {}
+  }
+}

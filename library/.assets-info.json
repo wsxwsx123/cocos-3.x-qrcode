@@ -1,0 +1,226 @@
+{
+  "/Users/bane/NewProject_1/assets/prefab.meta": {
+    "time": 1699410801648.0408
+  },
+  "/Users/bane/NewProject_1/assets/prefab": {
+    "time": 1699410822746.6443,
+    "uuid": "103fa71d-0b9b-4544-8fc1-af60ab107343",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scripts.meta": {
+    "time": 1699410809268.6929
+  },
+  "/Users/bane/NewProject_1/assets/scripts": {
+    "time": 1699417871680.6228,
+    "uuid": "86e34287-f00e-4e46-9e5f-26a7a56b9584",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/prefab/Node.prefab.meta": {
+    "time": 1699410822749.794
+  },
+  "/Users/bane/NewProject_1/assets/prefab/Node.prefab": {
+    "time": 1699420256326.0115,
+    "uuid": "9787e753-31a3-4556-b25a-d6a88ddb4f0c",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scene.meta": {
+    "time": 1699410883841.2847
+  },
+  "/Users/bane/NewProject_1/assets/scene/scene.scene.meta": {
+    "time": 1699410883844.598
+  },
+  "/Users/bane/NewProject_1/assets/scene": {
+    "time": 1699410883840.1562,
+    "uuid": "ef10971b-d35c-473c-90a3-ba1019673582",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scene/scene.scene": {
+    "time": 1699416739537.3232,
+    "uuid": "d2a129da-5e2d-425c-80be-b59c2b957faf",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QR8bitByte.ts.meta": {
+    "time": 1699411683787.6335
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRBitBuffer.ts.meta": {
+    "time": 1699411683790.2102
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRCode.ts.meta": {
+    "time": 1699411683790.3516
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRMath.ts.meta": {
+    "time": 1699411683790.7004
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRPolynomial.ts.meta": {
+    "time": 1699411683790.808
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRRSBlock.ts.meta": {
+    "time": 1699411683792.049
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRUtil.ts.meta": {
+    "time": 1699411683792.237
+  },
+  "/Users/bane/NewProject_1/assets/scripts/constants.ts.meta": {
+    "time": 1699411683792.8262
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QR8bitByte.ts": {
+    "time": 1699411676909.2627,
+    "uuid": "4952995a-93cd-43dc-9b30-5ccf9b3ec7c6",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRBitBuffer.ts": {
+    "time": 1699411676903.4092,
+    "uuid": "8345524c-17ec-4320-a192-5f52a64870f5",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRCode.ts": {
+    "time": 1699411676790.5989,
+    "uuid": "8731a869-f830-415d-b283-f918fd7da2bb",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRMath.ts": {
+    "time": 1699411676711.0684,
+    "uuid": "08107db9-bfd7-4c0b-abd3-ea34b8726cd9",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRPolynomial.ts": {
+    "time": 1699411676708.7312,
+    "uuid": "2fc2bed6-4898-49a9-96d8-482349755d57",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRRSBlock.ts": {
+    "time": 1699411676706.4329,
+    "uuid": "f8dd6692-d8b1-4482-bd76-e3203da6a57d",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scripts/QRUtil.ts": {
+    "time": 1699411676702.5535,
+    "uuid": "2adf49c5-de17-42cc-ab09-c2c5a26c4e0e",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scripts/constants.ts": {
+    "time": 1699411676675.0547,
+    "uuid": "7df67e50-af08-469a-8b21-347c3f50d5b8",
+    "missing": false
+  },
+  "/Users/bane/NewProject_1/assets/scripts/test.ts.meta": {
+    "time": 1699411747204.4343
+  },
+  "/Users/bane/NewProject_1/assets/scripts/test.ts": {
+    "time": 1699417872707.4895,
+    "uuid": "a7f41420-ed3e-487f-8af4-5a032422861c",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/prefab": {
+    "time": 1699410822746.644,
+    "uuid": "103fa71d-0b9b-4544-8fc1-af60ab107343",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scene": {
+    "time": 1699410883840.1562,
+    "uuid": "ef10971b-d35c-473c-90a3-ba1019673582",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts": {
+    "time": 1699417871680.623,
+    "uuid": "86e34287-f00e-4e46-9e5f-26a7a56b9584",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts": {
+    "time": 1699411676909.2627,
+    "uuid": "4952995a-93cd-43dc-9b30-5ccf9b3ec7c6",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts": {
+    "time": 1699411676903.4092,
+    "uuid": "8345524c-17ec-4320-a192-5f52a64870f5",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts": {
+    "time": 1699411676790.5989,
+    "uuid": "8731a869-f830-415d-b283-f918fd7da2bb",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts": {
+    "time": 1699411676711.0684,
+    "uuid": "08107db9-bfd7-4c0b-abd3-ea34b8726cd9",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts": {
+    "time": 1699411676708.7312,
+    "uuid": "2fc2bed6-4898-49a9-96d8-482349755d57",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts": {
+    "time": 1699411676706.4329,
+    "uuid": "f8dd6692-d8b1-4482-bd76-e3203da6a57d",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts": {
+    "time": 1699411676702.5537,
+    "uuid": "2adf49c5-de17-42cc-ab09-c2c5a26c4e0e",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts": {
+    "time": 1699411676675.0547,
+    "uuid": "7df67e50-af08-469a-8b21-347c3f50d5b8",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts": {
+    "time": 1699417872707.4895,
+    "uuid": "a7f41420-ed3e-487f-8af4-5a032422861c",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/prefab.meta": {
+    "time": 1699410801648.0408
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scene.meta": {
+    "time": 1699410883841.2847
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts.meta": {
+    "time": 1699410809268.6926
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts.meta": {
+    "time": 1699411683787.6335
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts.meta": {
+    "time": 1699411683790.2102
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts.meta": {
+    "time": 1699411683790.3516
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts.meta": {
+    "time": 1699411683790.7002
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts.meta": {
+    "time": 1699411683790.808
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts.meta": {
+    "time": 1699411683792.049
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts.meta": {
+    "time": 1699411683792.237
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts.meta": {
+    "time": 1699411683792.8262
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.meta": {
+    "time": 1699411747204.4343
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/prefab/Node.prefab": {
+    "time": 1699420256326.0115,
+    "uuid": "9787e753-31a3-4556-b25a-d6a88ddb4f0c",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scene/scene.scene": {
+    "time": 1699416739537.3232,
+    "uuid": "d2a129da-5e2d-425c-80be-b59c2b957faf",
+    "missing": false
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/scene/scene.scene.meta": {
+    "time": 1699410883844.598
+  },
+  "/Users/bane/cocos-3.x-qrcode2/assets/prefab/Node.prefab.meta": {
+    "time": 1699410822749.794
+  }
+}
