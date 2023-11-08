@@ -1,11 +1,11 @@
-debug: Wed, 08 Nov 2023 06:20:33 GMT
+debug: Wed, 08 Nov 2023 08:01:35 GMT
 debug: Project: /Users/bane/cocos-3.x-qrcode2
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: /Applications/CocosCreator/Creator/3.6.3/CocosCreator.app/Contents/Resources/resources/3d/engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 3.3474589586257935ms.
+debug: Loading cache costs 1.1276249885559082ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 1.5815419554710388ms.
+debug: Loading cache costs 1.0101249814033508ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -46,7 +46,7 @@ debug: Our import map(foo:/bar): {
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 27.062000036239624ms.
+debug: Fetch asset-db cost: 2.4725419878959656ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 9
 Feature changed: false
@@ -79,41 +79,33 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:01:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Nov 08 2023 12:09:05 GMT+0800 (中国标准时间), Current mtime: Wed Nov 08 2023 14:20:29 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Nov 08 2023 14:20:29 GMT+0800 (中国标准时间), Current mtime: Wed Nov 08 2023 16:01:32 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts as cce:/internal/x/cc.
 debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as cce:/internal/x/cc.
 debug: Resolve ./QRUtil from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts as cce:/internal/x/cc.
 debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts.
 debug: Resolve ./QRMath from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts as cce:/internal/x/cc.
 debug: Resolve ./QRPolynomial from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts as cce:/internal/x/cc.
 debug: Resolve ./QRMath from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts.
 debug: Resolve ./QR8bitByte from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts.
 debug: Resolve ./QRBitBuffer from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts.
 debug: Resolve ./QRRSBlock from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts as cce:/internal/x/cc.
 debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts.
@@ -126,14 +118,13 @@ debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts 
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
 debug: Resolve ./QRCode from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
-debug: Target(editor) ends with cost 311.2064999938011ms.
+debug: Target(editor) ends with cost 60.126125037670135ms.
 debug: Target(preview) build started.
 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
@@ -155,41 +146,33 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:01:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Nov 08 2023 12:09:05 GMT+0800 (中国标准时间), Current mtime: Wed Nov 08 2023 14:20:29 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Wed Nov 08 2023 14:20:29 GMT+0800 (中国标准时间), Current mtime: Wed Nov 08 2023 16:01:32 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts as cce:/internal/x/cc.
 debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts as cce:/internal/x/cc.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as cce:/internal/x/cc.
 debug: Resolve ./QRUtil from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts as cce:/internal/x/cc.
 debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts.
 debug: Resolve ./QRMath from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts as cce:/internal/x/cc.
 debug: Resolve ./QRPolynomial from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts as cce:/internal/x/cc.
 debug: Resolve ./QRMath from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts.
 debug: Resolve ./QR8bitByte from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts.
 debug: Resolve ./QRBitBuffer from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts.
 debug: Resolve ./QRRSBlock from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts as cce:/internal/x/cc.
 debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts.
@@ -202,21 +185,20 @@ debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts 
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
-debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
 debug: Resolve ./QRCode from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts.
 debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
-debug: Target(preview) ends with cost 205.5053339600563ms.
+debug: Target(preview) ends with cost 53.983875036239624ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 7.555000007152557ms.
+debug: Fetch asset-db cost: 12.125250041484833ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 9
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts.
@@ -227,9 +209,9 @@ debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts 
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
-debug: Target(editor) ends with cost 9.154667019844055ms.
+debug: Target(editor) ends with cost 14.220165967941284ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts.
@@ -240,4 +222,254 @@ debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts 
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts.
 debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
-debug: Target(preview) ends with cost 17.82325005531311ms.
+debug: Target(preview) ends with cost 11.018666982650757ms.
+debug: Dispatch build request for time accumulated 8 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 8
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:03:00 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts as cce:/internal/x/cc.
+debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as cce:/internal/x/cc.
+debug: Resolve ./QRUtil from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts as cce:/internal/x/cc.
+debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./QRMath from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts as cce:/internal/x/cc.
+debug: Resolve ./QRPolynomial from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts as cce:/internal/x/cc.
+debug: Resolve ./QRMath from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Resolve ./QR8bitByte from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts.
+debug: Resolve ./QRBitBuffer from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts.
+debug: Resolve ./QRRSBlock from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts as cce:/internal/x/cc.
+debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./QRPolynomial from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
+debug: Failed to stat file 'file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts' when get mtime:Error: ENOENT: no such file or directory, stat '/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts'
+debug: Detected change: file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts. Last mtime: Wed Nov 08 2023 10:47:56 GMT+0800 (中国标准时间)@8731a869-f830-415d-b283-f918fd7da2bb, Current mtime: Thu Jan 01 1970 08:00:00 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts
+debug: We encountered an load error: Error: 在加载模块文件 /Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts 时发生错误：Error: ENOENT: no such file or directory, open '/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts'
+debug: Target(editor) ends with cost 294.6587499976158ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:03:00 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts as cce:/internal/x/cc.
+debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as cce:/internal/x/cc.
+debug: Resolve ./QRUtil from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts as cce:/internal/x/cc.
+debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./QRMath from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts as cce:/internal/x/cc.
+debug: Resolve ./QRPolynomial from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts as cce:/internal/x/cc.
+debug: Resolve ./QRMath from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Resolve ./QR8bitByte from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts.
+debug: Resolve ./QRBitBuffer from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts.
+debug: Resolve ./QRRSBlock from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts.
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts as cce:/internal/x/cc.
+debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./QRPolynomial from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
+debug: Failed to stat file 'file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts' when get mtime:Error: ENOENT: no such file or directory, stat '/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts'
+debug: Detected change: file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts. Last mtime: Wed Nov 08 2023 10:47:56 GMT+0800 (中国标准时间)@8731a869-f830-415d-b283-f918fd7da2bb, Current mtime: Thu Jan 01 1970 08:00:00 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts
+debug: We encountered an load error: Error: 在加载模块文件 /Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts 时发生错误：Error: ENOENT: no such file or directory, open '/Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts'
+debug: Target(preview) ends with cost 214.6517500281334ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:03:27 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
+debug: Detected change: file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts. Last mtime: Wed Nov 08 2023 12:31:12 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c, Current mtime: Wed Nov 08 2023 16:04:59 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve ./QRcode/constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./QRcode/QRCode from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Target(editor) ends with cost 98.1148339509964ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:03:28 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
+debug: Detected change: file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts. Last mtime: Wed Nov 08 2023 12:31:12 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c, Current mtime: Wed Nov 08 2023 16:04:59 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve ./QRcode/constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./QRcode/QRCode from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Target(preview) ends with cost 60.02504199743271ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:04:53 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
+debug: Detected change: file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts. Last mtime: Wed Nov 08 2023 16:04:59 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c, Current mtime: Wed Nov 08 2023 16:06:21 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve ./QRcode/constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./QRcode/QRCode from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Target(editor) ends with cost 203.93274998664856ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:04:54 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
+debug: Detected change: file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts. Last mtime: Wed Nov 08 2023 16:04:59 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c, Current mtime: Wed Nov 08 2023 16:06:21 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve ./QRcode/constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./QRcode/QRCode from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Target(preview) ends with cost 64.94695800542831ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:53 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:05:23 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
+debug: Detected change: file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts. Last mtime: Wed Nov 08 2023 16:06:21 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c, Current mtime: Wed Nov 08 2023 16:06:52 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve ./QRcode/constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./QRcode/QRCode from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Target(editor) ends with cost 71.73699998855591ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:05:23 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts from cce:/internal/x/prerequisite-imports as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts.
+debug: Detected change: file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts. Last mtime: Wed Nov 08 2023 16:06:21 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c, Current mtime: Wed Nov 08 2023 16:06:52 GMT+0800 (中国标准时间)@a7f41420-ed3e-487f-8af4-5a032422861c
+debug: Inspect file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as cce:/internal/x/cc.
+debug: Resolve ./QRcode/constants from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts.
+debug: Resolve ./QRcode/QRCode from file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts as file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts.
+debug: Target(preview) ends with cost 43.45008301734924ms.

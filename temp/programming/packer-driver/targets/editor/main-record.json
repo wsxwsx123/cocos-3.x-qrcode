@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 3670.980499982834,
+      "mTimestamp": 3685.444124996662,
       "chunkId": "d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53",
       "imports": [
         {
@@ -556,11 +556,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 4326.186040997505,
+      "mTimestamp": 323320.2340840101,
       "chunkId": "7445ff4758084772bd924d4fde9f2179dae8a9aa",
       "imports": [
         {
-          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts",
+          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts",
           "resolved": "__unresolved_0",
           "loc": {
             "start": {
@@ -569,105 +569,105 @@
             },
             "end": {
               "line": 5,
-              "column": 102
+              "column": 109
             }
           }
         },
         {
-          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts",
+          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
               "line": 5,
-              "column": 118
+              "column": 125
             },
             "end": {
               "line": 5,
-              "column": 186
+              "column": 200
             }
           }
         },
         {
-          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts",
+          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 202
+              "column": 216
             },
             "end": {
               "line": 5,
-              "column": 265
+              "column": 286
             }
           }
         },
         {
-          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts",
+          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 5,
-              "column": 281
+              "column": 302
             },
             "end": {
               "line": 5,
-              "column": 344
+              "column": 372
             }
           }
         },
         {
-          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts",
+          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 360
+              "column": 388
             },
             "end": {
               "line": 5,
-              "column": 429
+              "column": 464
             }
           }
         },
         {
-          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts",
+          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
-              "column": 445
+              "column": 480
             },
             "end": {
               "line": 5,
-              "column": 511
+              "column": 553
             }
           }
         },
         {
-          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts",
+          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 527
+              "column": 569
             },
             "end": {
               "line": 5,
-              "column": 590
+              "column": 639
             }
           }
         },
         {
-          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts",
+          "value": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 606
+              "column": 655
             },
             "end": {
               "line": 5,
-              "column": 672
+              "column": 728
             }
           }
         },
@@ -677,11 +677,11 @@
           "loc": {
             "start": {
               "line": 5,
-              "column": 688
+              "column": 744
             },
             "end": {
               "line": 5,
-              "column": 749
+              "column": 805
             }
           }
         }
@@ -691,56 +691,56 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts"
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts"
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts"
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRMath.ts"
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts"
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts"
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts"
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts"
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts"
           },
           "messages": []
         },
@@ -858,7 +858,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1699424429716,
+      "mTimestamp": 1699430492243,
       "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
       "imports": [],
       "type": "esm",
@@ -1609,184 +1609,9 @@
       ]
     },
     "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts": {
-      "mTimestamp": {
-        "mtime": 1699411676790.5989,
-        "uuid": "8731a869-f830-415d-b283-f918fd7da2bb"
-      },
-      "chunkId": "2548636d6734e67ebfa5548c20a7232f0c356054",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "./QRUtil",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 23
-            },
-            "end": {
-              "line": 1,
-              "column": 33
-            }
-          }
-        },
-        {
-          "value": "./QR8bitByte",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 23
-            },
-            "end": {
-              "line": 2,
-              "column": 37
-            }
-          }
-        },
-        {
-          "value": "./QRBitBuffer",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 24
-            },
-            "end": {
-              "line": 3,
-              "column": 39
-            }
-          }
-        },
-        {
-          "value": "./QRRSBlock",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 22
-            },
-            "end": {
-              "line": 4,
-              "column": 35
-            }
-          }
-        },
-        {
-          "value": "./QRPolynomial",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 25
-            },
-            "end": {
-              "line": 5,
-              "column": 41
-            }
-          }
-        },
-        {
-          "value": "./constants",
-          "resolved": "__unresolved_6",
-          "loc": {
-            "start": {
-              "line": 6,
-              "column": 36
-            },
-            "end": {
-              "line": 6,
-              "column": 49
-            }
-          }
-        },
-        {
-          "value": "./constants",
-          "resolved": "__unresolved_7",
-          "loc": {
-            "start": {
-              "line": 7,
-              "column": 36
-            },
-            "end": {
-              "line": 7,
-              "column": 49
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QR8bitByte.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRBitBuffer.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRRSBlock.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRPolynomial.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/constants.ts"
-          },
-          "messages": []
-        }
-      ]
+      "erroneous": true,
+      "mTimestamp": 0,
+      "chunkId": "c3c151e0b82680a832aba3452aa8948e0cb5681d"
     },
     "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRUtil.ts": {
       "mTimestamp": {
@@ -2016,10 +1841,10 @@
     },
     "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/test.ts": {
       "mTimestamp": {
-        "mtime": 1699417872707.4895,
+        "mtime": 1699430812884.2488,
         "uuid": "a7f41420-ed3e-487f-8af4-5a032422861c"
       },
-      "chunkId": "c10cf2d98580f3dbcf82bd3bea83f25e41d20f32",
+      "chunkId": "fc313ddf95d85380e2e7bd1a63496c27adf6b691",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2036,30 +1861,44 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 44
+              "column": 51
             },
             "end": {
               "line": 1,
-              "column": 48
-            }
-          }
-        },
-        {
-          "value": "./QRCode",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 44
-            },
-            "end": {
-              "line": 2,
-              "column": 54
+              "column": 55
             }
           }
         },
         {
           "value": "cc"
+        },
+        {
+          "value": "./QRcode/constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 36
+            },
+            "end": {
+              "line": 3,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "./QRcode/QRCode",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 23
+            },
+            "end": {
+              "line": 4,
+              "column": 40
+            }
+          }
         }
       ],
       "type": "esm",
@@ -2095,7 +1934,61 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRCode.ts"
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts": {
+      "mTimestamp": {
+        "mtime": 1699411676909.2627,
+        "uuid": "4952995a-93cd-43dc-9b30-5ccf9b3ec7c6"
+      },
+      "chunkId": "bc003d121568fba318b251084dea8812406d0036",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 36
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -2103,6 +1996,463 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts": {
+      "mTimestamp": {
+        "mtime": 1699411676675.0547,
+        "uuid": "7df67e50-af08-469a-8b21-347c3f50d5b8"
+      },
+      "chunkId": "a7290d3d4a27f3ed8e1c3d433fadc6632f9b3b4c",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts": {
+      "mTimestamp": {
+        "mtime": 1699411676903.4092,
+        "uuid": "8345524c-17ec-4320-a192-5f52a64870f5"
+      },
+      "chunkId": "08bf0118fd5b1063cdfcdc7bf8a56cf2e505a4ac",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRCode.ts": {
+      "mTimestamp": {
+        "mtime": 1699411676790.5989,
+        "uuid": "8731a869-f830-415d-b283-f918fd7da2bb"
+      },
+      "chunkId": "19f246e6b0193eed84cf68269919d09a078ebb81",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./QRUtil",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./QR8bitByte",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./QRBitBuffer",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./QRRSBlock",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 22
+            },
+            "end": {
+              "line": 4,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "./QRPolynomial",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 25
+            },
+            "end": {
+              "line": 5,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 36
+            },
+            "end": {
+              "line": 6,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 36
+            },
+            "end": {
+              "line": 7,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QR8bitByte.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRBitBuffer.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRUtil.ts": {
+      "mTimestamp": {
+        "mtime": 1699411676702.5537,
+        "uuid": "2adf49c5-de17-42cc-ab09-c2c5a26c4e0e"
+      },
+      "chunkId": "9d9da9d1acb7ba4db5ed34c8d8a25029a378a1e6",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "./QRMath",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./QRPolynomial",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts": {
+      "mTimestamp": {
+        "mtime": 1699411676711.0684,
+        "uuid": "08107db9-bfd7-4c0b-abd3-ea34b8726cd9"
+      },
+      "chunkId": "d6e335b4c7883560b6006eee07b6596b58315b79",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRPolynomial.ts": {
+      "mTimestamp": {
+        "mtime": 1699411676708.7312,
+        "uuid": "2fc2bed6-4898-49a9-96d8-482349755d57"
+      },
+      "chunkId": "59fbb771b106f0f90eb71af9298d5ecfad95f403",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./QRMath",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRMath.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/QRRSBlock.ts": {
+      "mTimestamp": {
+        "mtime": 1699411676706.4329,
+        "uuid": "f8dd6692-d8b1-4482-bd76-e3203da6a57d"
+      },
+      "chunkId": "d7d542a1ef933fa7b14bd525ddd0a54be9a543d3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 36
+            },
+            "end": {
+              "line": 1,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/bane/cocos-3.x-qrcode2/assets/scripts/QRcode/constants.ts"
           },
           "messages": []
         }

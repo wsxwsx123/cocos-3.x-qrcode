@@ -40,39 +40,43 @@
     "value": {}
   },
   "4952995a-93cd-43dc-9b30-5ccf9b3ec7c6": {
-    "url": "db://assets/scripts/QR8bitByte.ts",
+    "url": "db://assets/scripts/QRcode/QR8bitByte.ts",
     "value": {}
   },
   "8345524c-17ec-4320-a192-5f52a64870f5": {
-    "url": "db://assets/scripts/QRBitBuffer.ts",
+    "url": "db://assets/scripts/QRcode/QRBitBuffer.ts",
     "value": {}
   },
   "8731a869-f830-415d-b283-f918fd7da2bb": {
-    "url": "db://assets/scripts/QRCode.ts",
+    "url": "db://assets/scripts/QRcode/QRCode.ts",
     "value": {}
   },
   "08107db9-bfd7-4c0b-abd3-ea34b8726cd9": {
-    "url": "db://assets/scripts/QRMath.ts",
+    "url": "db://assets/scripts/QRcode/QRMath.ts",
     "value": {}
   },
   "2fc2bed6-4898-49a9-96d8-482349755d57": {
-    "url": "db://assets/scripts/QRPolynomial.ts",
+    "url": "db://assets/scripts/QRcode/QRPolynomial.ts",
     "value": {}
   },
   "f8dd6692-d8b1-4482-bd76-e3203da6a57d": {
-    "url": "db://assets/scripts/QRRSBlock.ts",
+    "url": "db://assets/scripts/QRcode/QRRSBlock.ts",
     "value": {}
   },
   "2adf49c5-de17-42cc-ab09-c2c5a26c4e0e": {
-    "url": "db://assets/scripts/QRUtil.ts",
+    "url": "db://assets/scripts/QRcode/QRUtil.ts",
     "value": {}
   },
   "7df67e50-af08-469a-8b21-347c3f50d5b8": {
-    "url": "db://assets/scripts/constants.ts",
+    "url": "db://assets/scripts/QRcode/constants.ts",
     "value": {}
   },
   "a7f41420-ed3e-487f-8af4-5a032422861c": {
     "url": "db://assets/scripts/test.ts",
+    "value": {}
+  },
+  "f8c3a1a9-0059-4e50-a4ef-fa8d56cabcac": {
+    "url": "db://assets/scripts/QRcode",
     "value": {}
   }
 }
